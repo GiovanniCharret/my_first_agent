@@ -31,36 +31,6 @@ Invariantes:
 O estado é persistido em data/state.json.
 
 
-Fase 2 — Multiagente
---------------------
-Evolução para:
-
-- Controller central
-- Workers stateless
-- Comunicação tipada (Command, Result)
-- Circuit breaker simples
-- Separação explícita de responsabilidades
-
-
-Como executar
--------------
-
-1. Criar ambiente virtual:
-   python -m venv .venv
-
-2. Ativar no PowerShell:
-   .\.venv\Scripts\Activate.ps1
-
-3. Instalar dependências:
-   pip install -r requirements.txt
-
-4. Executar agente:
-   python main.py
-
-5. Rodar testes:
-   pytest
-
-
 Objetivo educacional
 --------------------
 Este projeto não usa frameworks de agentes.
